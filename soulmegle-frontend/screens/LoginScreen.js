@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
-const API_URL = 'http://your-backend-url.com';  // Replace with your actual backend URL
+const API_URL = 'http://soulmegle-4w4g.onrender.com';  // Replace with your actual backend URL
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
