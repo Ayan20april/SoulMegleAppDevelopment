@@ -4,7 +4,7 @@ import * as Speech from 'expo-speech';
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
-const API_URL = 'http://your-backend-url.com'; 
+const API_URL = 'http://soulmegle-4w4g.onrender.com'; 
 
 export default function InterestScreen({ navigation }) {
   const [interest, setInterest] = useState('');
