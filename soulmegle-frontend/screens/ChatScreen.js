@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, FlatList } from 'react-native';
 import io from 'socket.io-client';
 
-const API_URL = 'http://your-backend-url.com'; 
+const API_URL = 'http://soulmegle-4w4g.onrender.com'; 
 const socket = io(API_URL);
 
 export default function ChatScreen() {
